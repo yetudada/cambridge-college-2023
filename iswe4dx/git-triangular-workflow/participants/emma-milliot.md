@@ -1,1 +1,0 @@
-Emma Milliot Data scientist intern

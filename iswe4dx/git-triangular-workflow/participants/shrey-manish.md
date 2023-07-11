@@ -1,2 +1,0 @@
-Shrey Manish
-Data Scientist

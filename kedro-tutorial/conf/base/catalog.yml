@@ -1,0 +1,11 @@
+customers:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/Customer-Churn-Records.csv
+
+preprocessed_customers:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/preprocessed_customers.csv
+
+rf_model:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/rf_model.pickle
