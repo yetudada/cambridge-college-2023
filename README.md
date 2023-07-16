@@ -28,21 +28,11 @@ Throughout this project, you will learn about:
  - Create code for data processing and modelling
  - Convert the code into a Kedro project
 
-## Let's Get Started!
+## Access your workspace and see your project
 
 Now that you're set up and have a sense of what to expect, let's jump right in and start predicting customer churn!
 
-Stay tuned for our first guide where we walk you through setting up your first Kedro project.
-
-## Install Kedro
-
-Install Kedro with:
-
-```
-pip install kedro==0.18.11
-```
-
-## Let's look at our project `kedro-tutorial`
+Get access to your workspace by opening: https://gitpod.io/github.com/yetudada/cambridge-college-2023
 
 A typical Kedro project structure looks like the following:
 
@@ -68,6 +58,14 @@ kedro-tutorial/
 |-- requirements.txt
 ```
 
+## Get into your project
+
+We will need to change directories into your project by running: 
+
+```
+cd kedro-tutorial
+```
+
  ## Install the requirements to run this project
 
  We need to install all of the libraries and packages that this project depends on to run, use this command:
@@ -75,6 +73,14 @@ kedro-tutorial/
  ```
  pip install -r src/requirements.txt
  ```
+
+## Run your pipeline
+
+You're going to do your first pipeline run: 
+
+```
+kedro run
+```
 
 ## Visualise the pipeline 
 
