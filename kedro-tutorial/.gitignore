@@ -20,8 +20,8 @@ logs/**
 # also keep all .gitkeep files
 !.gitkeep
 
-# also keep the example dataset
-!data/01_raw/Customer-Churn-Records.csv
+# keep also the example dataset
+!data/01_raw/*
 
 
 ##########################
