@@ -1,10 +1,18 @@
 customers:
   type: pandas.CSVDataSet
   filepath: data/01_raw/Customer-Churn-Records.csv
+  metadata:
+    kedro-viz:
+      preview_args:
+          nrows: 15
 
 preprocessed_customers:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/preprocessed_customers.csv
+  metadata:
+    kedro-viz:
+      preview_args:
+          nrows: 15
 
 rf_model:
   type: pickle.PickleDataSet
