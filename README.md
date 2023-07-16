@@ -53,8 +53,10 @@ kedro-tutorial/
 |       |-- catalog.yml
 |       |-- parameters.yml
 |   |-- local/
+|-- docs/
+|-- notebooks/
 |-- src/
-    |-- bank_churn_prediction/
+    |-- kedro_tutorial/
         |-- pipelines/
             |-- data_preprocessing/
                 |-- nodes.py
